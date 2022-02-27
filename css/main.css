@@ -1,0 +1,33 @@
+/* COMMON */
+body {
+  color: #333;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  font-family: 'Nanum Gothic',sans-serif;
+}
+img {
+  display: block; /*img를 글자처럼 취급하지 않고 하나의 block으로 처리하겠다. 기존은 inline요소라 text로 인지되어, 하단에 여백이 생성됨 (baseline)*/
+}
+
+/* HEADER */
+header {
+  background-color: royalblue;
+}
+header .inner{
+  position: relative;
+  width: 1100px;
+  height: 120px;
+  margin:0 auto;
+  background-color: orange;
+}
+header .logo {
+  height: 75px;
+  /* 로고 가운데 정렬, 부모요소에 position:relative가 있어야함*/ 
+  position: absolute;
+  top:0;
+  bottom:0;
+  margin: auto;
+  /* //로고 가운데 정렬, 부모요소에 position:relative가 있어야함*/
+}
+
